@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Footer from "./components/footer"
+// import Footer from "./components/footer"
 import Header from "./components/header";
 
 export const metadata: Metadata = {
@@ -18,6 +18,7 @@ export default function RootLayout({
       <body className="lg:flex flex-row lg:justify-between lg:gap-4 bg-[#111F44]">
         <Header />
         <main id="content" className="pt-24 lg:w-[52%] lg:py-24">{children}</main>
+        {/* <Footer /> */}
       </body>
     </html>
   );
