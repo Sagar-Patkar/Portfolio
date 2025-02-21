@@ -7,8 +7,8 @@ const Header = () => {
         <div className="lg:sticky lg:pl-12 lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
             <div>
                 <h1 className="text-4xl font-bold text-slate-200 sm:text-5xl">Sagar Patkar</h1>
-                <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl">Front End Developer</h2>
-                <p className="mt-4 max-w-xs leading-normal">I am a JavaScript, React, and Next.js developer with a strong focus on logic and problem-solving</p>
+                <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl">Frontend Developer | React & Next.js Enthusiast</h2>
+                <p className="mt-4 max-w-xs leading-normal">Passionate JavaScript developer with expertise in React and Next.js, dedicated to building scalable, high-performance web applications with a problem-solving mindset.</p>
                 {pathname !== "/archive" ? (
                     <nav className="nav hidden lg:block" aria-label="In-page jump links">
                         <ul className="mt-16 w-max">

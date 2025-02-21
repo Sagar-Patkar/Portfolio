@@ -25,7 +25,7 @@ const Experience = () => {
                                     </div>
                                 </h3>
                                 <p className="mt-2 text-sm leading-normal">
-                                    Build and maintain components used to construct frontend for client, across the whole product. Working closely with cross-functional teams, including developers, designers. and product managers, to implement and advocate for best practices in web development.
+                                    Develop and maintain reusable UI components to build scalable and high-performance front-end applications. Collaborate closely with cross-functional teams, including developers, designers, and product managers, to implement and promote best practices in modern web development.
                                 </p>
                                 <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                                     <li className="mr-1.5 mt-2">
