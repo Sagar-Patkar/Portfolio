@@ -10,7 +10,7 @@ const Project = () => {
                             <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
                             <div className="z-10 sm:order-2 sm:col-span-6">
                                 <h3>
-                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" target="_blank" href="https://www.royalsundaram.in/" aria-label="Royal Sundaram Website">
+                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" target="_blank" href="https://www.royalsundaram.in/" aria-label="Royal Sundaram Website" rel="noopener noreferrer">
                                         <span>Royal Sundaram General Insurance Website Development</span>
                                     </a>
                                 </h3>
@@ -47,7 +47,7 @@ const Project = () => {
                             <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
                             <div className="z-10 sm:order-2 sm:col-span-6">
                                 <h3>
-                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" target="_blank" href="https://learninghub.com/" aria-label="Learning Hub Website">
+                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" target="_blank" href="https://learninghub.com/" aria-label="Learning Hub Website" rel="noopener noreferrer">
                                         <span>Learning Hub Website Development</span>
                                     </a>
                                 </h3>
@@ -86,7 +86,7 @@ const Project = () => {
                             <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
                             <div className="z-10 sm:order-2 sm:col-span-6">
                                 <h3>
-                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" target="_blank" href="https://github.com/Sagar-Patkar/ProShop" aria-label="Proshop Website">
+                                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" target="_blank" href="https://github.com/Sagar-Patkar/ProShop" aria-label="Proshop Website" rel="noopener noreferrer">
                                         <span>Proshop Website Development</span>
                                     </a>
                                 </h3>
@@ -124,8 +124,15 @@ const Project = () => {
                         </div>
                     </li>
                 </ul>
+                <div className="mt-12">
+                    <a className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Full Project Achive" href="/archive">
+                        <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                            View Full Project Archive
+                        </span>
+                    </a>
+                </div>
             </div>
-        </section>
+        </section >
     )
 }
 

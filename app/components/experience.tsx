@@ -14,7 +14,7 @@ const Experience = () => {
                             <div className="z-10 sm:col-span-6">
                                 <h3 className="font-medium leading-snug text-slate-200">
                                     <div>
-                                        <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://www.techchefz.digital/" target="_blank" aria-label="Associate Technology at Techchefz Pvt. Ltd">
+                                        <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://www.techchefz.digital/" target="_blank" aria-label="Associate Technology at Techchefz Pvt. Ltd" rel="noopener noreferrer">
                                             <span>
                                                 Associate Technology | {" "}
                                                 <span className="inline-block">

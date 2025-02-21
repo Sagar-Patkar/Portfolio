@@ -2,7 +2,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Header = () => {
     return (
-        <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
+        <div className="lg:sticky lg:pl-12 lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
             <div>
                 <h1 className="text-4xl font-bold text-slate-200 sm:text-5xl">Sagar Patkar</h1>
                 <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl">Front End Developer</h2>
@@ -36,15 +36,15 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-            <ul className="ml-1 mt-8 flex items-center" aria-label="social media">
+            <ul className="ml-1 mt-12 flex items-center" aria-label="social media">
                 <li className="mr-5 shrink-0 text-xs">
-                    <a className="block hover:text-slate-200" href="https://github.com/Sagar-Patkar" title="Github" target="_blank">
+                    <a className="block hover:text-slate-200" href="https://github.com/Sagar-Patkar" title="Github" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">GitHub</span>
                         <FaGithub className="text-2xl" />
                     </a>
                 </li>
                 <li className="mr-5 shrink-0 text-xs">
-                    <a className="block hover:text-slate-200" href="https://www.linkedin.com/in/sagar-patkar-872032179/" title="LinkedIn" target="_blank">
+                    <a className="block hover:text-slate-200" href="https://www.linkedin.com/in/sagar-patkar-872032179/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">LinkedIn</span>
                         <FaLinkedin className="text-2xl" />
                     </a>
