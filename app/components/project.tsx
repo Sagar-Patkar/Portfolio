@@ -1,5 +1,5 @@
 "use client"
-
+import { GoArrowRight } from "react-icons/go";
 const Project = () => {
     return (
         <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Selected projects">
@@ -126,8 +126,8 @@ const Project = () => {
                 </ul>
                 <div className="mt-12">
                     <a className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Full Project Achive" href="/archive">
-                        <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
-                            View Full Project Archive
+                        <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none flex flex-row gap-2">
+                            View Full Project Archive <GoArrowRight />
                         </span>
                     </a>
                 </div>
