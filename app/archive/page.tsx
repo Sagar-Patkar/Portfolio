@@ -4,7 +4,7 @@ import { GoArrowLeft } from "react-icons/go";
 import { projectDataArray } from "../../utility/projectData"
 const Archive = () => {
     return (
-        <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+        <div className="lg:py-0">
             <Link className="group mb-8 inline-flex items-center font-semibold leading-tight text-teal-300 " href="/">
                 <div className="flex flex-row gap-2">
                     <span className="pt-1"><GoArrowLeft /></span>
