@@ -1,6 +1,6 @@
 "use client"
 import { usePathname } from "next/navigation";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from "react-icons/fa";
 const Header = () => {
     const pathname = usePathname();
     return (
@@ -52,6 +52,18 @@ const Header = () => {
                     <a className="block hover:text-slate-200" href="https://www.linkedin.com/in/sagar-patkar-872032179/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">LinkedIn</span>
                         <FaLinkedin className="text-2xl" />
+                    </a>
+                </li>
+                <li className="mr-5 shrink-0 text-xs">
+                    <a className="block hover:text-slate-200" href="mailto:sagarpatkar17@gmail.com" title="Email">
+                        <span className="sr-only">Email</span>
+                        <FaEnvelope className="text-2xl" />
+                    </a>
+                </li>
+                <li className="shrink-0 text-xs">
+                    <a className="block hover:text-slate-200" href="/Sagar_Patkar_Resume.pdf" title="Resume" target="_blank" rel="noopener noreferrer">
+                        <span className="sr-only">Resume</span>
+                        <FaFileAlt className="text-2xl" />
                     </a>
                 </li>
             </ul>
