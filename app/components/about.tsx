@@ -10,16 +10,16 @@ const About = () => {
             </div>
             <div>
                 <p className="mb-4">
-                    I am a developer passionate about building accessible and scalable web applications. I love working on the development side, creating seamless user experiences that are not only visually appealing but also optimized for performance and usability.
+                    I am a frontend developer specializing in building modular, logic-driven, and scalable web applications using <b>React</b> and <b>Next.js</b>. I enjoy solving complex problems, optimizing data flows, and integrating APIs to create efficient, maintainable systems.
                 </p>
                 <p className="mb-4">
-                    Currently, I am an Associate Technology at Techchefz Digital Pvt. Ltd., where I focus on developing and maintaining UI components, ensuring they meet web accessibility standards and best practices to enhance user experience.
+                    Currently, I work as a <b>Senior Frontend Developer</b> at <b>Techchefz Digital Pvt. Ltd.</b>, where I lead frontend development for enterprise projects, including the <b>SpiceJet Internal Portal</b> — a system that manages passenger communication through WhatsApp, Email, SMS, and IVR, with features like CSV uploads, queue processing, and detailed log tracking.
                 </p>
                 <p className="mb-4">
-                    Throughout my career, I have had the opportunity to develop features across diverse industries, including insurance and education. Additionally, I have completed various courses on Udemy and earned certifications to deepen my expertise.
+                    Over the past 4+ years, I’ve worked on multiple large-scale web applications across industries like <b>insurance</b> and <b>education</b>, focusing on code structure, reusability, and high-performance API integration. I’m also pursuing an <b>M.Sc. in Data Science</b> to strengthen my analytical and backend problem-solving skills.
                 </p>
                 <p className="mb-4">
-                    Outside of coding, I enjoy coaching football at a local school, spending time with my wife and dog, or going for a bike ride.
+                    Outside of work, I enjoy coaching <b>football</b> at a local school, spending time with my wife and dog, and going for long bike rides.
                 </p>
             </div>
         </section>
