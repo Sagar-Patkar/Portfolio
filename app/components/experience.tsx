@@ -22,7 +22,7 @@ const Experience = () => {
                                     <div>
                                         <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://www.techchefz.digital/" target="_blank" aria-label="Associate Technology at Techchefz Pvt. Ltd" rel="noopener noreferrer">
                                             <span>
-                                                Associate Technology | {" "}
+                                                Senior Frontend Developer | {" "}
                                                 <span className="inline-block">
                                                     Techchefz Pvt. Ltd
                                                 </span>
@@ -31,39 +31,20 @@ const Experience = () => {
                                     </div>
                                 </h3>
                                 <p className="mt-2 text-sm leading-normal">
-                                    Develop and maintain reusable UI components to build scalable and high-performance front-end applications. Collaborate closely with cross-functional teams, including developers, designers, and product managers, to implement and promote best practices in modern web development.
+                                    Leading frontend development for enterprise-scale projects, focusing on logical architecture, API integration, and performance optimization using React and Next.js.
+                                    Currently spearheading the <b>SpiceJet Internal Portal</b> — a system for managing passenger communication via WhatsApp, email, SMS, and IVR with features like CSV uploads, queue processing, and detailed log tracking.
+                                </p>
+                                <p className="mt-2 text-sm leading-normal">
+                                    Previously contributed to projects for <b>Royal Sundaram General Insurance</b> (7+ insurance websites) and <b>Stride Learning Hub</b>, implementing modular code structures, reusable logic-based components, and secure API-driven workflows.
                                 </p>
                                 <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
-                                    <li className="mr-1.5 mt-2">
-                                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                            Javascript
-                                        </div>
-                                    </li>
-                                    <li className="mr-1.5 mt-2">
-                                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                            React js
-                                        </div>
-                                    </li>
-                                    <li className="mr-1.5 mt-2">
-                                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                            Next js
-                                        </div>
-                                    </li>
-                                    <li className="mr-1.5 mt-2">
-                                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                            SQL
-                                        </div>
-                                    </li>
-                                    <li className="mr-1.5 mt-2">
-                                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                            Redux
-                                        </div>
-                                    </li>
-                                    <li className="mr-1.5 mt-2">
-                                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                                            JEST
-                                        </div>
-                                    </li>
+                                    {["JavaScript", "React.js", "Next.js", "Redux", "SQL", "Jest"].map((tech) => (
+                                        <li key={tech} className="mr-1.5 mt-2">
+                                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                {tech}
+                                            </div>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </div>
