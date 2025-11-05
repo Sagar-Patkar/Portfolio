@@ -5,15 +5,14 @@ const Header = () => {
     const pathname = usePathname();
     return (
         <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
-            <div>
-                <h1 className="text-4xl font-bold text-slate-200 sm:text-5xl">Sagar Patkar</h1>
-                <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl">Senior Frontend Developer | React & Next.js Specialist | 4+ Years of Experience</h2>
-                <p className="mt-4 max-w-xs leading-normal">
-                    Senior JavaScript developer skilled in architecting scalable, high-performance web applications using React, Next.js, and modern frontend technologies. Passionate about crafting clean, efficient UI architectures and delivering seamless user experiences that make an impact.
+        <div>
+                <h1 className="ttext-4xl font-bold text-slate-200 sm:text-5xl leading-tight">Sagar Patkar</h1>
+                <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl leading-snug">Senior Frontend Developer | React & Next.js Specialist | 4+ Years of Experience</h2>
+                <p className="mt-4 max-w-xs text-slate-400 leading-relaxed">
+                    Passionate JavaScript developer with 4+ years of experience building scalable,
+                    high-performance web applications using React, Next.js, and modern frontend technologies.
                 </p>
-                <p className="mt-2 text-sm text-slate-400">
-                    Currently leading frontend development for <b>SpiceJet’s Internal Portal</b>. Open to new opportunities in Frontend.
-                </p>
+
                 {pathname !== "/archive" ? (
                     <nav className="nav hidden lg:block" aria-label="In-page jump links">
                         <ul className="mt-16 w-max">
