@@ -1,92 +1,74 @@
 export const projectDataArray = [
     {
-        name: "Royal Sundaram General Insurance Website Development",
+        name: "SpiceJet Internal Portal",
+        url: "#",
+        desc: "Developed a role-based internal portal enabling users to upload passenger CSV data and manage queue entries. Implemented logic for CSV header mapping, template creation for communication services, carrier and flight management, and automated reason generation for flight operations.",
+        language: ["Javascript", "Next.js", "Redux", "Tailwind", "API Integration"]
+    },
+    {
+        name: "Royal Sundaram General Insurance Platform",
         url: "https://www.royalsundaram.in/",
-        desc: "Developed dynamic web applications to provide real-time premium calculations based on user inputs for various insurance types, enhancing user experience and policy selection.",
+        desc: "Engineered multiple insurance portals with real-time premium calculation logic, policy validation, and API-driven workflows across different insurance categories.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
         name: "Royal Sundaram Car Insurance Website",
         url: "https://www.royalsundaram.in/car-insurance/",
-        desc: "Built a responsive and efficient insurance web application that allows users to calculate premiums and purchase car insurance seamlessly.",
+        desc: "Developed a dynamic car insurance platform with premium computation logic, data validation, and secure policy purchasing flow.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
-        name: "Royal Sundaram Two-Wheeler Insurance Website",
+        name: "Royal Sundaram Two-Wheeler Insurance",
         url: "https://www.royalsundaram.in/two-wheeler-insurance/",
-        desc: "Engineered a user-friendly interface for customers to explore and purchase two-wheeler insurance policies with an optimized quote generation system.",
+        desc: "Built a modular front-end application that retrieves and displays policy quotes, integrating seamlessly with backend APIs for premium estimation.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
-        name: "Royal Sundaram Health Insurance Website",
+        name: "Royal Sundaram Health Insurance Platform",
         url: "https://www.royalsundaram.in/health-insurance/lifeline/",
-        desc: "Developed a digital health insurance platform with real-time policy comparisons, premium calculators, and secure policy purchase features.",
-        language: ["JavaScript", "Next.js", "SQL", "Redux"]
-    },
-    {
-        name: "Royal Sundaram Lifeline Health Insurance",
-        url: "https://www.royalsundaram.in/health-insurance/lifeline/",
-        desc: "Implemented an intuitive insurance platform for users to browse health insurance plans, get personalized quotes, and complete online purchases.",
+        desc: "Created logic for premium and policy comparison with dynamic parameters for health insurance categories and online purchase completion.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
         name: "Royal Sundaram Family Plus Health Insurance",
         url: "https://www.royalsundaram.in/health-insurance/family-plus/",
-        desc: "Designed and developed an insurance application tailored for family health plans, allowing users to customize coverage options.",
+        desc: "Developed a customizable family health plan interface, handling coverage configurations and premium calculations through reusable logic modules.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
         name: "Royal Sundaram Personal Accident Insurance",
         url: "https://www.royalsundaram.in/personal-accident-insurance/",
-        desc: "Created a web solution enabling users to explore personal accident insurance policies with transparent premium calculations and quick policy enrollment.",
+        desc: "Built and optimized API-integrated modules for accident policy quotations, form validations, and real-time premium display.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
         name: "Royal Sundaram Arogya Sanjeevani Policy",
         url: "https://www.royalsundaram.in/health-insurance/arogya-sanjeevani/",
-        desc: "Developed a streamlined insurance purchase journey for Arogya Sanjeevani policies with real-time policy customization and seamless user interactions.",
+        desc: "Implemented configurable logic for standardized health insurance policy selection with API-driven quote processing.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
         name: "Royal Sundaram Advanced Top-Up Health Insurance",
         url: "https://www.royalsundaram.in/health-insurance/advanced-top-up/",
-        desc: "Built an advanced top-up health insurance platform with flexible premium adjustments, policy add-ons, and an intuitive customer interface.",
+        desc: "Developed reusable components for managing add-on benefits, dynamic premium recalculation, and user data validation.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
         name: "Royal Sundaram Home Insurance Website",
         url: "https://www.royalsundaram.in/home-insurance/",
-        desc: "Developed an interactive home insurance platform, allowing users to customize coverage and receive instant premium estimates based on property details.",
+        desc: "Engineered logic for property-based coverage and premium computation with form validations and API integration.",
         language: ["JavaScript", "Next.js", "SQL", "Redux"]
     },
     {
         name: "Stride Learning Hub",
         url: "https://learninghub.com/",
-        desc: "Designed and developed an educational platform that enables students to select subjects, complete skill assessments, and track progress, while providing monitoring tools for parents and teachers.",
-        language: ["JavaScript", "Next.js", "UI", "Redux"]
+        desc: "Built an education platform for teachers, students, and parents with logic for subject selection, skill assessment tracking, and progress analytics.",
+        language: ["JavaScript", "Next.js", "Redux", "Jest"]
     },
     {
-        name: "Proshop",
+        name: "Proshop E-Commerce Platform",
         url: "https://github.com/Sagar-Patkar/ProShop",
-        desc: "Built a full-stack e-commerce website where users can browse, add products to the cart, and complete purchases, while admins can manage inventory, update pricing, and track orders.",
+        desc: "Developed a full-stack e-commerce app with product management, authentication, cart logic, and admin dashboards using the MERN stack.",
         language: ["JavaScript", "React.js", "Redux", "Node.js", "MongoDB"]
     },
-    {
-        name: "Drag & Drop Application",
-        url: "https://github.com/Sagar-Patkar/drag-drop",
-        desc: "Developed a drag-and-drop interface for tables, allowing users to reposition data dynamically while maintaining logical relationships within a structured layout.",
-        language: ["JavaScript", "Next.js", "UI"]
-    },
-    {
-        name: "Keep Application",
-        url: "https://github.com/Sagar-Patkar/Keep_App",
-        desc: "Created a Google Keep clone with note-taking functionalities, including adding, editing, and deleting notes with a simple and clean UI.",
-        language: ["JavaScript"]
-    },
-    {
-        name: "Drum Kit Application",
-        url: "https://github.com/Sagar-Patkar/Keep_App",
-        desc: "Developed an interactive drum kit that plays different drum sounds when users press corresponding keyboard keys, enhancing musical engagement through code.",
-        language: ["JavaScript"]
-    }
 ];
