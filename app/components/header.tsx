@@ -6,11 +6,10 @@ const Header = () => {
     return (
         <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
         <div>
-                <h1 className="ttext-4xl font-bold text-slate-200 sm:text-5xl leading-tight">Sagar Patkar</h1>
-                <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl leading-snug">Senior Frontend Developer | React & Next.js Specialist | 4+ Years of Experience</h2>
-                <p className="mt-4 max-w-xs text-slate-400 leading-relaxed">
-                    Passionate JavaScript developer with 4+ years of experience building scalable,
-                    high-performance web applications using React, Next.js, and modern frontend technologies.
+                <h1 className="text-4xl font-bold text-slate-200 sm:text-5xl leading-tight">Sagar Patkar</h1>
+                <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl leading-snug">Senior Frontend Engineer | 4+ Years | React, Next.js | Performance & Architecture</h2>
+                <p className="mt-4 max-w-[85%] text-slate-400 leading-relaxed">
+                    Frontend engineer with 4+ years of experience building scalable and performance-driven web applications using React and Next.js. Focused on clean architecture, efficient data handling, and delivering reliable, production-grade systems aligned with business needs.
                 </p>
 
                 {pathname !== "/archive" ? (
