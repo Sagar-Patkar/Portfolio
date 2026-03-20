@@ -10,16 +10,19 @@ const About = () => {
             </div>
             <div>
                 <p className="mb-4">
-                    I am a frontend developer specializing in building modular, logic-driven, and scalable web applications using <b>React</b> and <b>Next.js</b>. I enjoy solving complex problems, optimizing data flows, and integrating APIs to create efficient, maintainable systems.
+                    I am a frontend engineer focused on building scalable, modular, and performance-driven web applications using <b>React</b> and <b>Next.js</b>. I enjoy solving complex problems, optimizing data flows, and designing clean, maintainable systems that align with real business needs.
                 </p>
+
                 <p className="mb-4">
-                    Currently, I work as a <b>Senior Frontend Developer</b> at <b>Techchefz Digital Pvt. Ltd.</b>, where I lead frontend development for enterprise projects, including the <b>SpiceJet Internal Portal</b> — a system that manages passenger communication through WhatsApp, Email, SMS, and IVR, with features like CSV uploads, queue processing, and detailed log tracking.
+                    Currently, I work as a <b>Senior Frontend Engineer</b> at <b>Techchefz Digital Pvt. Ltd.</b>, where I lead frontend development for enterprise-grade applications. One of my key projects is the <b>SpiceJet Dashboard</b>, a role-based system that manages passenger communication across WhatsApp, Email, SMS, and IVR, with features like CSV processing, queue management, and detailed operational tracking.
                 </p>
+
                 <p className="mb-4">
-                    Over the past 4+ years, I’ve worked on multiple large-scale web applications across industries like <b>insurance</b> and <b>education</b>, focusing on code structure, reusability, and high-performance API integration. I’m also pursuing an <b>M.Sc. in Data Science</b> to strengthen my analytical and backend problem-solving skills.
+                    Over the past 4+ years, I’ve contributed to multiple production applications across <b>Insurance</b> and <b>Education</b> domains, focusing on reusable architecture, performance optimization, and seamless API integrations. I am also pursuing an <b>M.Sc. in Data Science</b> to strengthen my analytical thinking and expand into data-driven product development.
                 </p>
+
                 <p className="mb-4">
-                    Outside of work, I enjoy coaching <b>football</b> at a local school, spending time with my wife and dog, and going for long bike rides.
+                    Outside of work, I enjoy coaching <b>football</b>, spending time with my family, and going for long bike rides.
                 </p>
             </div>
         </section>
