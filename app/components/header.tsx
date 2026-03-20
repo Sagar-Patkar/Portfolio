@@ -44,7 +44,7 @@ const Header = () => {
                 ) : null}
 
             </div>
-            <ul className="ml-1 mt-12 flex items-center" aria-label="social media">
+            <ul className="ml-1 mt-6 flex items-center" aria-label="social media">
                 <li className="mr-5 shrink-0 text-xs">
                     <a className="block hover:text-slate-200" href="https://github.com/Sagar-Patkar" title="Github" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">GitHub</span>
@@ -64,7 +64,7 @@ const Header = () => {
                     </a>
                 </li>
                 <li className="shrink-0 text-xs">
-                    <a className="block hover:text-slate-200" href="/Sagar_Patkar_Resume.pdf" title="Resume" target="_blank" rel="noopener noreferrer">
+                    <a className="block hover:text-slate-200" href="/Sagar_Sudesh_Patkar_Product_Resume_v2(1).pdf" title="Resume" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">Resume</span>
                         <FaFileAlt className="text-2xl" />
                     </a>
