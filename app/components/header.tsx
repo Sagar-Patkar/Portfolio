@@ -8,7 +8,7 @@ const Header = () => {
         <div>
                 <h1 className="text-4xl font-bold text-slate-200 sm:text-5xl leading-tight">Sagar Patkar</h1>
                 <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl leading-snug">Senior Frontend Engineer | 4+ Years | React, Next.js | Performance & Architecture</h2>
-                <p className="mt-4 max-w-[85%] text-slate-400 leading-relaxed">
+                <p className="mt-4 max-w-full sm:max-w-[85%] text-slate-400 leading-relaxed">
                     Frontend engineer with 4+ years of experience building scalable and performance-driven web applications using React and Next.js. Focused on clean architecture, efficient data handling, and delivering reliable, production-grade systems aligned with business needs.
                 </p>
 
