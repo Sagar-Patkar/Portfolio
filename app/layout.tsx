@@ -24,6 +24,7 @@ export default function RootLayout({
             <main
                 id="content"
                 className="
+    scroll-smooth
     pt-10
     lg:w-[52%]
     lg:pt-16
