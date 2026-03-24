@@ -114,7 +114,7 @@ const Project = () => {
                     </li>
                 </ul>
                 <div className="mt-12">
-                    <a className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group" aria-label="View Full Project Achive" href="/archive">
+                    <a className="inline-flex items-center leading-tight text-slate-200 font-semibold group" aria-label="View Full Project Achive" href="/archive">
                         <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none flex flex-row gap-2">
                             View Full Project Archive <GoArrowRight />
                         </span>
