@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
+import React from "react";
 
 export const metadata: Metadata = {
-  title: "Sagar Patkar | Portfolio",
-  description: "Frontend Developer Portfolio",
+    title: "Sagar Patkar | Senior Frontend Engineer (React & Next.js)",
+    description:
+        "Senior Frontend Engineer with 4+ years of experience building scalable, high-performance web applications using React and Next.js. Specialized in frontend architecture, performance optimization, and API-driven systems.",
 };
 
 export default function RootLayout({
